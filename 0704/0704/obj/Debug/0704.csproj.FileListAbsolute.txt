@@ -1,0 +1,10 @@
+C:\Users\dbseo\source\repos\0704\0704\bin\Debug\0704.exe.config
+C:\Users\dbseo\source\repos\0704\0704\bin\Debug\0704.exe
+C:\Users\dbseo\source\repos\0704\0704\bin\Debug\0704.pdb
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\0704.csproj.AssemblyReference.cache
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\_0704.Properties.Resources.resources
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\0704.csproj.GenerateResource.cache
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\0704.csproj.CoreCompileInputs.cache
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\0704.exe
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\0704.pdb
+C:\Users\dbseo\source\repos\0704\0704\obj\Debug\_0704.Form1.resources
