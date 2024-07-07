@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dbseo\\source\\repos\\0704\\",
+  "WorkspaceRootPath": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|c:\\users\\dbseo\\source\\repos\\0704\\0704\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|c:\\users\\dbseo\\source\\repos\\csprac7\\0704\\0704\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|solutionrelative:0704\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|c:\\users\\dbseo\\source\\repos\\0704\\0704\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|solutionrelative:0704\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|c:\\users\\dbseo\\source\\repos\\0704\\0704\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|solutionrelative:0704\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|c:\\users\\dbseo\\source\\repos\\0704\\0704\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|solutionrelative:0704\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|c:\\users\\dbseo\\source\\repos\\0704\\0704\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8681950E-16FF-486F-89EB-5D6072599B5F}|0704\\0704.csproj|solutionrelative:0704\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.cs",
               "RelativeDocumentMoniker": "0704\\Form1.cs",
-              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.cs",
+              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.cs",
               "RelativeToolTip": "0704\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T23:48:02.643Z",
               "EditorCaption": ""
@@ -65,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.cs",
               "RelativeDocumentMoniker": "0704\\Form1.cs",
-              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.cs [\uB514\uC790\uC778]",
+              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "0704\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T23:47:59.355Z",
@@ -77,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.resx",
-              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.resx",
+              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.resx",
               "RelativeDocumentMoniker": "0704\\Form1.resx",
-              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.resx",
+              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.resx",
               "RelativeToolTip": "0704\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-07-04T23:47:57.653Z",
@@ -89,22 +89,21 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Program.cs",
               "RelativeDocumentMoniker": "0704\\Program.cs",
-              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Program.cs",
+              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Program.cs",
               "RelativeToolTip": "0704\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T23:47:50.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T23:47:50.395Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "0704\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\0704\\0704\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\dbseo\\source\\repos\\CSPrac7\\0704\\0704\\Form1.Designer.cs",
               "RelativeToolTip": "0704\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
