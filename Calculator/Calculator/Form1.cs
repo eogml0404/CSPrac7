@@ -26,7 +26,7 @@ namespace Calculator
 
         private void minus_Click(object sender, EventArgs e)
         {
-            if (flag)
+            if (flag && inputBox.Text != "")
             {
                 op = "-";
                 num1 = int.Parse(inputBox.Text);
@@ -39,7 +39,7 @@ namespace Calculator
 
         private void plus_Click(object sender, EventArgs e)
         {
-            if (flag)
+            if (flag && inputBox.Text != "")
             {
                 op = "+";
                 num1 = int.Parse(inputBox.Text);
@@ -51,17 +51,15 @@ namespace Calculator
         private void execute_Click(object sender, EventArgs e)
         {
             
-            num2 = int.Parse(inputBox.Text);
+            num2 = int.Parse(inputBox.Text.Replace(",", "")); // 콤마 제거 후 파싱
 
             switch (op)
             {
                 case "+":
-                    resultBox.Text = num1.ToString() + op + num2.ToString() + " = " + (num1 + num2).ToString() ; break;
-                case "-": resultBox.Text = num1.ToString() + op + num2.ToString() + " = " + (num1 - num2).ToString(); ; break;
+                    resultBox.Text = num1.ToString("N0") + op + num2.ToString("N0") + " = " + (num1 + num2).ToString("N0") ; break;
+                case "-": resultBox.Text = num1.ToString("N0") + op + num2.ToString("N0") + " = " + (num1 - num2).ToString("N0"); ; break;
                 
             }
-
-            
 
             inputBox.Text = ""; 
             flag = true; 
@@ -70,6 +68,7 @@ namespace Calculator
         private void button1_Click(object sender, EventArgs e)
         {
             inputBox.Text += "1";
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
