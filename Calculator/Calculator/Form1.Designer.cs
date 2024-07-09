@@ -176,10 +176,10 @@
             // 
             // resultBox
             // 
-            this.resultBox.Location = new System.Drawing.Point(306, 156);
+            this.resultBox.Location = new System.Drawing.Point(278, 156);
             this.resultBox.Multiline = true;
             this.resultBox.Name = "resultBox";
-            this.resultBox.Size = new System.Drawing.Size(219, 28);
+            this.resultBox.Size = new System.Drawing.Size(247, 28);
             this.resultBox.TabIndex = 13;
             // 
             // ACBtn
