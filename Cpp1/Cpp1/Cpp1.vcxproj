@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="classMain.cpp" />
     <ClCompile Include="cpp1.cpp" />
+    <ClCompile Include="cpp2.cpp" />
+    <ClCompile Include="cpp3.cpp" />
+    <ClCompile Include="cpp4.cpp" />
+    <ClCompile Include="cpp5.cpp" />
+    <ClCompile Include="cpp6.cpp" />
+    <ClCompile Include="cpp7.cpp" />
+    <ClCompile Include="cpp8.cpp" />
+    <ClCompile Include="func.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
