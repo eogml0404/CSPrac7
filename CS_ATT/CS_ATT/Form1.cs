@@ -21,10 +21,20 @@ namespace CS_ATT
 
             //Knife knife = new Knife(30, 50, 5);
 
-            textBox1.Text = rifle.getInfo();
+            //textBox1.Text = rifle.getInfo();
 
-            textBox1.Text += "\r\nAK47 "+rifle.combatPoint().ToString() + "\r\n";
+           // textBox1.Text += "\r\nAK47 "+rifle.combatPoint().ToString() + "\r\n";
+            //공격력 변경
+            rifle.setCombatPoint(77);
+            textBox1.Text = rifle.getInfo() + "\r\n";
+            //공격력, 공격속도 변경
+            rifle.setCombatPoint(97,80);
+            textBox1.Text += rifle.getInfo() + "\r\n";
 
+            //공격력, 공격속도, 장탄 수 변경
+            rifle.setCombatPoint(66, 60, 30);
+
+            textBox1.Text += rifle.getInfo() + "\r\n";
 
         }
     }
