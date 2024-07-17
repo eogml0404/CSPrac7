@@ -49,7 +49,8 @@ namespace CSharp_hard2
 
             Triangle tri3 = new Triangle();
 
-          //  textBox1.Text += tri1.getShape() + "\r\n";
+            //주소 값을 넣어 줘야 한다.
+            void setThree(ref int x) => x = 3;
 
             Squre sq1 = new Squre();
 
