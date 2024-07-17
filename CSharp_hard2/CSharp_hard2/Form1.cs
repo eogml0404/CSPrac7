@@ -10,93 +10,108 @@ using System.Windows.Forms;
 
 namespace CSharp_hard2
 {
+    public static class Dog
+    {
+        public static string Voice() => "먼먼";
+    }
+
+
     public partial class Form1 : Form
     {
+        void Add1(ref int sum1, ref int sum2, ref int result2) => result2 = sum1 + sum2;
         public Form1()
         {
             InitializeComponent();
 
-            Squre squre = new Squre();  
+            void makeInstance(ref int[] numbers)
+            {
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    numbers[i] = i + 1;
             
-            NO n = new NO();
-            /*            textBox1.Text = n.GetNumber(10).ToString() + "\r\n";
-                        textBox1.Text += n.GetNumber(10,20).ToString() + "\r\n";
-                        textBox1.Text += n.GetNumber((long)100).ToString() + "\r\n";*/
+                }
+            }
 
-       /*     textBox1.Text = squre.Say();
-            textBox1.Text += squre.go();
-            textBox1.Text += squre.getShape5();*/
+            void makeInstance2(out int[] numbers, int len)
+            {
+                numbers = new int[len];
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    numbers[i] = i + 1;
 
-            Circle circle1 = new Circle();
+                }
+            }
 
-           // textBox1.Text = circle1.getShape() + "\r\n";
+            InitializeComponent();
 
-            Circle circle2 = new Circle();
+            int a = 5;
+            int b = 6;
+            int result = 0;
 
            // textBox1.Text += circle2.getShape() + "\r\n";
 
-            Circle circle3 = new Circle();
+            Add1(ref a, ref b, ref result);
+            textBox1.Text = result.ToString();
 
            // textBox1.Text += circle3.getShape() + "\r\n";
 
-            Triangle tri1 = new Triangle();
+            int[] nums = new int[10];
+            makeInstance(ref nums);
 
-           // textBox1.Text += tri1.getShape() + "\r\n"; ;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                //    textBox1.Text += nums[i].ToString() + " ";
+            }
+            textBox1.Text += "\r\n\r\n";
+            int Length = 10;
+            int[] nums2;
+            makeInstance2(out nums2, Length);
 
-            Triangle tri2 = new Triangle();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                // textBox1.Text += nums2[i].ToString() + " ";
+            }
 
            // textBox1.Text += tri1.getShape() + "\r\n";
 
             Triangle tri3 = new Triangle();
 
-            //주소 값을 넣어 줘야 한다.
-            void setThree(ref int x) => x = 3;
+            Squre squre = new Squre();
 
-            Squre sq1 = new Squre();
+            // Dog dog = new Dog(); // 이 줄을 제거합니다.
+            string dogVoice = Dog.Voice(); // Dog 클래스의 메서드를 직접 호출합니다.
 
-          //  textBox1.Text += sq1.getShape() + "\r\n";
+            // dogVoice를 사용하여 필요한 작업 수행
+            // MessageBox.Show(dogVoice); // 예시: 메시지 박스로 dogVoice 출력
 
             Squre sq2 = new Squre();
 
-          //  textBox1.Text += sq2.getShape() + "\r\n";
+            Instant in1 = new Instant();
+            Instant in2 = new Instant();
 
-            Squre sq3 = new Squre();
+            //static 사용
+            // textBox1.Text = Instant.Count.ToString();
 
-         //   textBox1.Text += sq3.getShape() + "\r\n";
+            int num = 1;
+            // textBox1.Text = minusOne(num).ToString();
 
-            Squre sq4 = new Squre();
+            //setThree(ref num);
+            setThree(out num);
+            //textBox1.Text = num.ToString();
 
-          //  textBox1.Text += sq4.getShape();
+            //값의 참조
+            int minusOne(int x) => x - 1;
 
-            List<Shape> shapes = new List<Shape>();
-            shapes.Add(circle1);
-            shapes.Add(circle2);
-            shapes.Add(circle3);
-            shapes.Add(tri1);
-            shapes.Add(tri2);
-            shapes.Add(tri3);
-            shapes.Add(sq1);
-            shapes.Add(sq2);
-            shapes.Add(sq3);
-            shapes.Add(sq4);
+            //num을 3으로 바꾸고 싶은데 안됨 (값만 넘어 왔기 때문에)
+            //void setThree(int x) => x = 3;
 
-            for(int i = 0; i < shapes.Count; i++)
-            {
-                if (shapes[i] is Squre)
-                {
-                    textBox1.Text += "Squre\r\n" ;
-                }
-                else if (shapes[i] is Triangle)
-                {
-                    textBox1.Text += "Triangle\r\n";
-                }
-                else
-                {
-                    textBox1.Text += "Circle\r\n";
-                }
-            }
+            //주소 값을 넣어 줘야 한다. (참조)
+            //void setThree(ref int x) => x = 3;
 
+            //out -> int x 이라는게 나올 것 이다.
+            void setThree(out int x) => x = 3;
 
+            //out -> 미리 할당 안해도됨, ref -> 미리 할당해야됨(ex int num = 5;)
 
 
         }
