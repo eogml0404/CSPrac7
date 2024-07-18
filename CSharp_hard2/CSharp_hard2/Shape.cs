@@ -35,9 +35,6 @@ namespace CSharp_hard2
        
     }
 
-
-
-
     //상속
     public class Squre : Shape
     {
