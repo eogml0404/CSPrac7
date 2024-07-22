@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsCollection
+﻿namespace ThreadPrac
 {
     partial class Form1
     {
@@ -33,17 +33,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 88);
+            this.textBox1.Location = new System.Drawing.Point(133, 45);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(523, 177);
+            this.textBox1.Size = new System.Drawing.Size(512, 605);
             this.textBox1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(867, 762);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
