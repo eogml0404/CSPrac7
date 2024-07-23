@@ -37,11 +37,6 @@ namespace ThreadPrac
                 thread.Start();
             }
 
-            foreach (var thread in threads)
-            {
-                thread.Join();
-            }
-
         }
         private static DateTime Delay(int MS)
         {
