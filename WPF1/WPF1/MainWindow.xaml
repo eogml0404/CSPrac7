@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="178,66,0,0" TextWrapping="Wrap" Text="helloWorld" VerticalAlignment="Top" Width="477" Height="252" Background="#FF9CC6FA" FontFamily="Consolas" BorderBrush="#FF0040FF" Foreground="#FFFFFCFC" SelectionBrush="#FF7B9BB4" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Margin="0,67,0,0" TextWrapping="Wrap" Text="helloWorld" VerticalAlignment="Top" Width="112" Height="26" Background="#FF9CC6FA" FontFamily="Consolas" BorderBrush="#FF0040FF" Foreground="#FFFFFCFC" SelectionBrush="#FF7B9BB4" FontSize="18" FontWeight="Bold"/>
+        <RadioButton x:Name="helloButton" Content="hello" HorizontalAlignment="Left" Margin="250,196,0,0" VerticalAlignment="Top" IsChecked="True" />
+        <RadioButton x:Name="goodByeButton" Content="goodBysButton" HorizontalAlignment="Left" Margin="458,193,0,0" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Height="44" Width="96" Click="Button_Click" Background="#FF9CC6FA" FontFamily="Consolas" BorderBrush="#FF0040FF" Foreground="#FFFFFCFC"  FontSize="18" FontWeight="Bold"/>
 
     </Grid>
 </Window>

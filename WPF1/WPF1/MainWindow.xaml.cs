@@ -23,8 +23,21 @@ namespace WPF1
         public MainWindow()
         {
             InitializeComponent();
-
-            textBox.
+          
         }
-    }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (helloButton.IsChecked == true)
+            {
+                MessageBox.Show("Hello.");
+            }
+
+            else if (goodByeButton.IsChecked == true)
+            {
+                MessageBox.Show("Goodbye.");
+            }
+            }
+        }
+    
 }
