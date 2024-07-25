@@ -31,10 +31,13 @@ namespace Wpf_Image
                 // 버튼의 배경을 이미지로 설정
                 button1.Background = new ImageBrush(bitmap);
 
+                //너비, 높이 설정 원래 파일크기의 1/6
                 int imageWidth = bitmap.PixelWidth / 6;
                 int imageHeight = bitmap.PixelHeight / 6;
                 button1.Width = imageWidth;
                 button1.Height = imageHeight;
+
+
             }
         }
     }
