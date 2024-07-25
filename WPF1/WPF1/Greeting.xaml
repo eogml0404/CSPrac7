@@ -11,6 +11,9 @@
         <RadioButton x:Name="helloButton" Content="hello" HorizontalAlignment="Left" Margin="250,196,0,0" VerticalAlignment="Top" IsChecked="True" />
         <RadioButton x:Name="goodByeButton" Content="goodBye" HorizontalAlignment="Left" Margin="458,193,0,0" VerticalAlignment="Top"/>
         <Button Content="Display" HorizontalAlignment="Left" Margin="336,290,0,0" VerticalAlignment="Top" Height="44" Width="112" Click="Button_Click" Background="#FF9CC6FA" FontFamily="Consolas" BorderBrush="#FF0040FF" Foreground="#FFFFFCFC"  FontSize="18" FontWeight="Bold"/>
-
+        <Image HorizontalAlignment="Left" Height="100" Margin="618,217,0,0" VerticalAlignment="Top" Width="100" Source="/스크린샷 2024-07-12 111221.png"/>
+        <Image HorizontalAlignment="Left" Height="22" Margin="618,312,0,0" VerticalAlignment="Top" Width="100" Source="/스크린샷 2024-07-12 111312.png" RenderTransformOrigin="0.542,-2.063"/>
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="618,349,0,0" VerticalAlignment="Top" Width="100" Click="button1_Click" Height="51"/>
+        <Image x:Name="imageBox1" HorizontalAlignment="Left" Height="100" Margin="618,113,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>

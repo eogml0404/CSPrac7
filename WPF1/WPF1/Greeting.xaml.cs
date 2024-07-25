@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -20,10 +21,18 @@ namespace WPF1
     /// </summary>
     public partial class MainWindow : Window
     {
+        bool btn_image = true;
+        Uri click1;
+        Uri click2;
+
         public MainWindow()
         {
             InitializeComponent();
-          
+
+            this.click1 = new Uri("pack://application:,,,/스크린샷 2024-07-12 111221.png", UriKind.Absolute);
+
+            this.click2 = new Uri("pack://application:,,,/스크린샷 2024-07-12 111312.png", UriKind.Absolute);
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -37,7 +46,25 @@ namespace WPF1
             {
                 MessageBox.Show("Goodbye.");
             }
+
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.btn_image)
+            {
+                button1.Background = new ImageBrush(new BitmapImage(this.click1));
+                imageBox1.Source = new BitmapImage(this.click1);
+                this.btn_image = false;
+            }
+            else
+            {
+                button1.Background = new ImageBrush(new BitmapImage(this.click2));
+                imageBox1.Source = new BitmapImage(this.click2);
+                this.btn_image = true;
             }
         }
+
+    }
     
 }
