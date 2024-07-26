@@ -1,0 +1,29 @@
+﻿<Window x:Name="Maingrid" x:Class="SliderPrac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SliderPrac"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Slider x:Name="Rslider"  HorizontalAlignment="Left" Margin="200,83,0,0" VerticalAlignment="Top" Width="427" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="Rslider_ValueChanged" Maximum="255" Value="0"/>
+        <Slider x:Name="Gslider"  HorizontalAlignment="Left" Margin="200,168,0,0" VerticalAlignment="Top" Width="427" TickFrequency="5" IsSnapToTickEnabled="True" Maximum="255" ValueChanged="Gslider_ValueChanged"  Value="0"/>
+        <Slider x:Name="Bsilder" HorizontalAlignment="Left" Margin="200,261,0,0" VerticalAlignment="Top" Width="427" TickFrequency="5" IsSnapToTickEnabled="True" Maximum="255" ValueChanged="Bsilder_ValueChanged"  Value="0"/>
+        <Label x:Name="Rvalue" Foreground="Orange" Content="0" HorizontalAlignment="Left" Margin="663,83,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Gvalue" Foreground="Orange" Content="0" HorizontalAlignment="Left" Margin="663,168,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Bvalue" Foreground="Orange" Content="0" HorizontalAlignment="Left" Margin="663,257,0,0" VerticalAlignment="Top"/>
+        <Label Content="R" Foreground="Orange" HorizontalAlignment="Left" Margin="144,79,0,0" VerticalAlignment="Top"/>
+        <Label Content="G" Foreground="Orange" HorizontalAlignment="Left" Margin="144,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="B" Foreground="Orange" HorizontalAlignment="Left" Margin="144,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="-32.641,-0.795"/>
+        <GroupBox Header="TYPE" Margin="106,301,60,0" Foreground="Orange">
+            <Grid Margin="70,0,58,0" Height="61">
+                <RadioButton x:Name="Ori" Content="Original" Foreground="Orange" HorizontalAlignment="Left" Margin="86,40,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" IsChecked="True"/>
+                <RadioButton x:Name="Gray" Content="GrayTone" Foreground="Orange" HorizontalAlignment="Left" Margin="226,40,0,0" VerticalAlignment="Top" Checked="Gray_Checked"/>
+                <RadioButton x:Name="Invert" Content="Invert" Foreground="Orange" HorizontalAlignment="Left" Margin="378,38,0,-38" Checked="RadioButton_Checked_1"/>
+            </Grid>
+
+        </GroupBox>
+
+    </Grid>
+</Window>
